@@ -23,3 +23,13 @@ elif nota >= 7.0:
     print('Nota baixa')
 else:
     print('Reprovado!')
+
+# Exercício:
+
+idade_3 = 25
+if idade_3 <= 16:
+    print('Você não pode votar!')
+elif idade_3 >= 17 and idade_3 <= 18 or idade_3 >= 70:
+    print('O voto é facultativo')
+else:
+    print('O voto é obrigátorio')
